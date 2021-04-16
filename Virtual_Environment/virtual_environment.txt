@@ -1,0 +1,13 @@
+Virtual Environment is a clone of original python environment.
+if we created a programme inside this Virtual environment it remain same and 
+unaffected by the updating of modules used inside it .
+
+Steps to create Virtual environment
+1> create a folder
+2> open powershell there 
+3> pip install virtualenv
+4> to create a new virtual environment -> virtualenv ak47
+5> on powershell admin -> set-executionpolicy remotesigned
+6> to activate Virtual environment "ak47" -> .\ak47\Scripts\activate
+ do what you want 
+7> deactivate
