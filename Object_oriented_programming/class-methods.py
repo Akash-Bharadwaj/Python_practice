@@ -44,3 +44,5 @@ Employee.printgood("Akash")
 
 # abstraction -> kaam ko tukre may baant ker kerna 
 # Encapsulation -> sirf product ko use kerna , uska pura information hide kerna 
+# Inheritance -> feature of one class can be shared to another classs
+# Polymorphism -> roop badalna
