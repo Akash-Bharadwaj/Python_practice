@@ -14,6 +14,18 @@ dict1 = dict(list1)
 # for item , lollypop in dict1.items():
 #     print(lollypop)
 
+# using Else with for loop
+khana = ["roti","sabzi" , "chawal"]
+
+for item in khana:
+    if item == "roti":
+        print(f"chotu wo 4 no. tabel per {item} laga")
+        break
+
+else:
+    print("bhaiya avi bna nehi hay ")
+    
+        
 
 # Quiz
 items = ["ak47" , "ak103" ,"ak203" ,5,7,2,9,12,23,65,78,32,12,73]

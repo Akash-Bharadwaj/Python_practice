@@ -56,3 +56,23 @@ har = ["harry","rohan","skillf","akash","prakash","shivam"]
 army = "band of brothers"
 kw = {"Rohan":"Monitor", "harry":"commander", "Akash":"major"}
 funargs(army,*har,**kw)
+
+############## Caching of function ############################################################
+# Caching -> it means saving a function while running so that it won't run again and again
+
+import time
+from functools import lru_cache
+
+@lru_cache(maxsize = 3) # it means it store last 3 run of a functions
+def some_work(n):
+    time.sleep(n)
+    return n
+
+if __name__ == '__main__':
+    print("Now running some work")
+    some_work(3)
+    print("Done... Calling again")
+    some_work(3)
+    print("Done... Calling again")
+    
+    

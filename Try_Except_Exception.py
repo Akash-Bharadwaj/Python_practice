@@ -9,6 +9,9 @@ try:
 except Exception as e:
     print(e)
 
+finally:
+    print("Run this anyway...")
+    
 
 
 print("This line is very important")
